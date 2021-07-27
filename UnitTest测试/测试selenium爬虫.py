@@ -15,7 +15,6 @@ class Test_Demo(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.get("http://www.baidu.com")
 
-
     # 后置条件
     def tearDown(self):
         sleep(3)

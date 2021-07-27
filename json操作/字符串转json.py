@@ -1,3 +1,0 @@
-import json
-str1= {"sort": "-create_time", "disk_flag": true, "page_flag": true, "app_type": "", "pub_flag": 1, "keyword": "", "bill_flag": 1, "pri_ip": [], "app_id": "", "page_size": 20, "pri_flag": 1, "page_index": 1, "label_id": "", "user_id": "18677776666", "pri_ip_flag": false, "pub_ip": [], "customer_id": "E020911", "pub_desc_flag": 0, "pub_name_flag": false, "pub_ip_flag": false}
-print(json.load(str1))
