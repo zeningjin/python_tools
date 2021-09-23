@@ -11,7 +11,6 @@ def display_time(fun):
     return wrapper
 
 
-
 def is_prime(num):
     if num < 2:
         return False
@@ -32,6 +31,7 @@ def count_prime_nums(maxnum):
         if is_prime(i):
             count += 1
     print(count)
+
 
 if __name__ == '__main__':
     count_prime_nums(20000)
